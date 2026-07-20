@@ -1,0 +1,9 @@
+Spotless-OClock-Website-Concept.pdf
+assets/spotless-hero.png
+presentation/
+tmp/
+*.zip
+*.psd
+*.fig
+.DS_Store
+Thumbs.db
