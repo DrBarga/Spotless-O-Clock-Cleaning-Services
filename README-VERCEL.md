@@ -31,6 +31,19 @@ npx vercel --prod
 - Add an absolute `og:image` URL after the production domain is known.
 - Confirm service areas, business hours and any insurance or trust claims before launch.
 
+## Activate the email forms
+
+Quote requests and new review submissions are sent to `spotlessoclock@gmail.com` through FormSubmit.
+
+1. Open the production site and send one test quote.
+2. Open the activation email delivered to `spotlessoclock@gmail.com` and confirm the form.
+3. Send a second test quote and confirm that the complete enquiry arrives in the inbox.
+4. Repeat the test with the review form. Reviews are emailed for approval before publication.
+
+## Safe Vercel transfer
+
+Ask the client to create their own GitHub and Vercel accounts with an email address they control. Transfer the repository and Vercel project to them or invite them as the owner. Do not exchange account passwords.
+
 ## Project structure
 
 - `index.html` - main website
